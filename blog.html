@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Kunal Tyagi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/182fe7f5f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about us.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Program For 2022</h1>
+    </section>
+    <!----------------- Blog Page Content --------------------------->
+
+    <div class="row-blog">
+        <div class="blog-left">
+            <img src="eduford_img/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Program For 2022</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quam atque neque dolor consectetur cupiditate distinctio nobis nesciunt voluptate. Obcaecati nobis iste iure officiis, amet explicabo, blanditiis unde sit odio beatae voluptate veniam facilis tempore mollitia ducimus tempora accusantium ratione maxime a! Minus dolor aut, nihil aliquid sequi possimus? Ea earum pariatur quos, excepturi sed alias cupiditate nisi error eius fuga aliquid saepe quis ullam harum id quaerat. Eum consequuntur necessitatibus iste impedit porro explicabo illo, quibusdam, maxime earum quisquam mollitia dicta velit? Aut ea consectetur nihil dolore tenetur, sed autem. Voluptatem veritatis, a adipisci consequuntur alias blanditiis rem molestiae, dignissimos optio placeat ea in eos. Asperiores facere obcaecati molestias repellendus et praesentium illo nobis impedit fugiat, optio esse corporis distinctio suscipit rem! Voluptatibus repellat animi ea quis quam sint architecto officia, aliquid sunt modi, alias qui eum asperiores ipsum. Commodi officia mollitia aspernatur maxime dolorum impedit saepe, quis rerum?
+            </p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quo dolorum officiis dolor sint repudiandae expedita nulla nam, veritatis aspernatur fuga facere esse minus et assumenda! Ullam modi dignissimos nihil!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias laborum obcaecati autem quibusdam ea soluta molestias modi, ipsa tenetur. Dolor sapiente, beatae quod consequuntur culpa harum nisi sed magnam.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rem asperiores magni ad earum soluta quibusdam dicta ullam ipsa fugiat. Nobis at optio maiores nemo voluptatem nulla maxime repudiandae ipsa?</p>
+
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="Email" placeholder="Enter Your Email">
+                    <textarea rows="5" placeholder="Enter your comments"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <Span>28</Span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <Span>15</Span>
+            </div>
+            <div>
+                <span>Mechine learning</span>
+                <Span>17</Span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <Span>19</Span>
+            </div>
+            <div>
+                <span>Artifitial Intelegence</span>
+                <Span>22</Span>
+            </div>
+        </div>
+    </div>
+    <!------------------- Footer ---------------------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae soluta assumenda veniam consequatur et <br> odit distinctio corrupti aut magni eaque.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Made With  <i class="fa fa-heart-o"></i> by Kunal Tyagi</p>
+    </section>
+
+    <script>
+        var menuFunction = document.getElementById("navLinks");
+        function showMenu(){
+            menuFunction.style.right="0px";
+        }
+        function hideMenu(){
+            menuFunction.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
